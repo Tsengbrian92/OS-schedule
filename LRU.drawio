@@ -1,9 +1,85 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="rZ7J571amCKqR3UiTrEj">
-    <mxGraphModel>
+    <mxGraphModel dx="1368" dy="801" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m5dvr489kQ_kgwwVEzPB-2" target="m5dvr489kQ_kgwwVEzPB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-2" value="開始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="258" y="153" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m5dvr489kQ_kgwwVEzPB-4" target="m5dvr489kQ_kgwwVEzPB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-4" value="初始化deque和計數器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="273" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m5dvr489kQ_kgwwVEzPB-7" target="m5dvr489kQ_kgwwVEzPB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m5dvr489kQ_kgwwVEzPB-7" target="m5dvr489kQ_kgwwVEzPB-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-7" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:594,&amp;quot;end&amp;quot;:757},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:637,&amp;quot;end&amp;quot;:717}]&quot;&gt;頁面是否存在於 &lt;code&gt;deque&lt;/code&gt; 中&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="373" width="234" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m5dvr489kQ_kgwwVEzPB-9" target="m5dvr489kQ_kgwwVEzPB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-9" value="增加page Fault計數" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="227" y="504" width="182" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-10" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="459.5" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m5dvr489kQ_kgwwVEzPB-13" target="m5dvr489kQ_kgwwVEzPB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m5dvr489kQ_kgwwVEzPB-13" target="m5dvr489kQ_kgwwVEzPB-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-13" value="deque 是否已滿" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="602" width="206" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m5dvr489kQ_kgwwVEzPB-15" target="m5dvr489kQ_kgwwVEzPB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-15" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:365,&amp;quot;end&amp;quot;:570},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:391,&amp;quot;end&amp;quot;:529},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:413,&amp;quot;end&amp;quot;:529},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:413,&amp;quot;end&amp;quot;:529},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:439,&amp;quot;end&amp;quot;:529},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:451,&amp;quot;end&amp;quot;:529},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:463,&amp;quot;end&amp;quot;:529},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:489,&amp;quot;end&amp;quot;:506}]&quot;&gt;移除最早進入的頁面&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="228.5" y="720" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-16" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="313.5" y="681.5" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m5dvr489kQ_kgwwVEzPB-18" target="m5dvr489kQ_kgwwVEzPB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-18" value="放到deque&lt;span style=&quot;background-color: initial;&quot;&gt;的頭部&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="720" width="167" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-19" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="471.5" y="656.5" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="m5dvr489kQ_kgwwVEzPB-21" target="m5dvr489kQ_kgwwVEzPB-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-21" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:365,&amp;quot;end&amp;quot;:570},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:530,&amp;quot;end&amp;quot;:564}]&quot;&gt;輸出 Page Fault 和 Page Replace 次數&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237" y="816" width="162" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-22" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="186.5" y="451.5" width="34" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-23" value="結束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="258" y="919" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m5dvr489kQ_kgwwVEzPB-24" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;FIFO 流程圖&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="230" height="68" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
