@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="rZ7J571amCKqR3UiTrEj">
-    <mxGraphModel dx="1052" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1608" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="hh8Dx5dRxp2fZejtdIRH-20" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="475" y="518" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QtVW1W6QdIvRy_Vnxdua-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hh8Dx5dRxp2fZejtdIRH-21" target="hh8Dx5dRxp2fZejtdIRH-25">
+        <mxCell id="QtVW1W6QdIvRy_Vnxdua-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hh8Dx5dRxp2fZejtdIRH-21" target="hh8Dx5dRxp2fZejtdIRH-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hh8Dx5dRxp2fZejtdIRH-21" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;ordered_list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;startingNumber&amp;quot;:1,&amp;quot;start&amp;quot;:592,&amp;quot;end&amp;quot;:823},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:783,&amp;quot;end&amp;quot;:817}]&quot;&gt;輸出 Page Fault 和 Page Replace 次數&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -83,13 +83,13 @@
         <mxCell id="hh8Dx5dRxp2fZejtdIRH-25" value="結束" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="980" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QtVW1W6QdIvRy_Vnxdua-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hh8Dx5dRxp2fZejtdIRH-16" target="QtVW1W6QdIvRy_Vnxdua-1">
+        <mxCell id="QtVW1W6QdIvRy_Vnxdua-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hh8Dx5dRxp2fZejtdIRH-16" target="QtVW1W6QdIvRy_Vnxdua-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="395" y="730" as="sourcePoint" />
             <mxPoint x="395" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtVW1W6QdIvRy_Vnxdua-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QtVW1W6QdIvRy_Vnxdua-1" target="hh8Dx5dRxp2fZejtdIRH-4">
+        <mxCell id="QtVW1W6QdIvRy_Vnxdua-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QtVW1W6QdIvRy_Vnxdua-1" target="hh8Dx5dRxp2fZejtdIRH-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="260" y="800" />
@@ -97,13 +97,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtVW1W6QdIvRy_Vnxdua-1" value="是否還有頁面要放入deque" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QtVW1W6QdIvRy_Vnxdua-1" value="是否還有頁面要放入deque" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="297.5" y="760" width="195" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QtVW1W6QdIvRy_Vnxdua-5" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="QtVW1W6QdIvRy_Vnxdua-5" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="260" y="768" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QtVW1W6QdIvRy_Vnxdua-8" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="QtVW1W6QdIvRy_Vnxdua-8" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="395" y="841" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
